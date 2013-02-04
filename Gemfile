@@ -10,6 +10,7 @@ gem 'bcrypt-ruby', '3.0.1'
 group:development, :test do
 	gem 'sqlite3', '1.3.5'
 	gem 'rspec-rails','2.11.0'
+	gem 'factory_girl_rails', '4.1.0'
 end
 
 #development 表示这个包是用来开发的
@@ -40,7 +41,7 @@ group :production do
 end
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+#gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
